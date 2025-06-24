@@ -21,12 +21,13 @@ er.registry.register_all()
 # Path to your specific checkpoint file
 #CHECKPOINT_PATH = './checkpoints/model-5600.pth'
 CHECKPOINT_PATH = 'log/bisup-LEVIRCD/r50_farseg_changestar/model-5600.pth'
+#CHECKPOINT_PATH = 'log/finetune-SYSUCD/r50_farseg_changestar/model-2000.pth'
 # Root directory of your LEVIR-CD dataset
 LEVIR_CD_VAL_ROOT = '/media/avaish/aiwork/satellite-work/datasets/LEVIR-CD'
 
 # Index of the image pair you want to use from the validation set (0 to 64)
 # You can change this to test different image pairs.
-IMAGE_PAIR_INDEX = 20
+IMAGE_PAIR_INDEX = 27
 
 # --- Model Configuration (should match your training config) ---
 # This is loaded from your config file
